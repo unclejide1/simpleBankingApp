@@ -16,11 +16,11 @@ public class Customer {
         this.transaction.add(amount);
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getName() {
+        return name;
     }
 
-    public void setTransaction(ArrayList<Double> transaction) {
-        this.transaction = transaction;
+    public ArrayList<Double> getTransaction() {
+        return transaction;
     }
 }
